@@ -1,0 +1,15 @@
+Source: salt-formula-stackstorm
+Maintainer: Ales Komarek <ales.komarek@tcpcloud.eu>
+Section: admin
+Priority: optional
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: http://www.tcpcloud.eu
+Vcs-Browser: https://github.com/tcpcloud/salt-formula-stackstorm
+Vcs-Git: https://github.com/tcpcloud/salt-formula-stackstorm.git
+
+Package: salt-formula-stackstorm
+Architecture: all
+Depends: ${misc:Depends}, salt-master, reclass
+Description: stackstorm salt formula
+ Install and configure stackstorm system.

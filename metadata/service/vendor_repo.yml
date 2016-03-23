@@ -2,7 +2,7 @@ parameters:
   linux:
     system:
       repo:
-        elasticsearch:
+        stackstorm:
           enabled: true
           source: 'deb https://packagecloud.io/StackStorm/staging-stable/ubuntu/ trusty main'
           key_url: 'https://packagecloud.io/StackStorm/staging-stable/gpgkey'

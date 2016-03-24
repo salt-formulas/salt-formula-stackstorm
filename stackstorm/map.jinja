@@ -1,4 +1,3 @@
-
 {%- set source_engine = salt['pillar.get']('stackstorm:server:source:engine') %}
 
 {%- load_yaml as base_defaults %}
@@ -8,6 +7,8 @@ Debian:
   - st2mistral
   - st2web
   conf_file: /etc/st2/st2.conf
+  dir:
+    base: /srv/stackstorm
   service: st2ctl
 {%- endload %}
 

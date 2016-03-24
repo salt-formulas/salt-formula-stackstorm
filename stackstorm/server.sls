@@ -29,13 +29,13 @@ stackstorm_dirs:
   file.directory:
   - names:
     - {{ server.dir.base }}
-    - {{ server.dir.base }}/stackstorm/.ssh
+    - {{ server.dir.base }}/.ssh
   - user: stackstorm
   - group: stackstorm
   - mode: 0700
   - makedirs: true
 
-/home/deployer/.ssh/id_rsa:
+/srv/stackstorm/.ssh/id_rsa:
   file.managed:
     - user: stackstorm
     - group: stackstorm

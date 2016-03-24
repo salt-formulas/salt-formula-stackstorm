@@ -8,3 +8,9 @@ parameters:
       enabled: true
       bind:
         address: 0.0.0.0
+      message_queue: 
+        host: localhost
+        port: 5672
+        user: guest
+        password: guest
+        virtual_host: /

@@ -10,6 +10,6 @@ Vcs-Git: https://github.com/tcpcloud/salt-formula-stackstorm.git
 
 Package: salt-formula-stackstorm
 Architecture: all
-Depends: ${misc:Depends}, salt-master, reclass
+Depends: ${misc:Depends}
 Description: stackstorm salt formula
  Install and configure stackstorm system.
